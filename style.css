@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(255, 255, 255);
 }
 
 .d-bloc .a-btn:hover,
@@ -150,7 +150,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -704,14 +704,35 @@ p, quote {
     font-size: 16px;
     font-weight: 700;
 }
-
-.social {
-    max-width: 400px;
-    margin: auto auto auto auto;
+footer {
+    background-color: #575757;
+    color: white;
 }
+footer h2, footer h3 {
+    color: white!important;
+}
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 400px;
+    margin: auto;
+    padding: 10px;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.partners {
+    padding: 10px;
 
-
-
+}
+.partners a {
+    color: rgba(255, 255, 255, 1)!important;
+}
 .med-width-whitespace {
     max-width: 800px;
     margin: auto auto auto auto;
@@ -816,6 +837,9 @@ h4 {
     background-image: url("img/image-de-presentation.jpg");
 }
 
+
+
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -890,7 +914,7 @@ h4 {
     h6,
     p,
     #disqus_thread {
-        margin: 0px 30px;
+        margin: 10px 30px;
     }
     .b-parallax {
         background-attachment: scroll;
