@@ -634,7 +634,11 @@ h2 {
     line-height: 1.4em;
     font-weight: 700;
     font-size: 25px!important;
-    color: white!important;
+    color: #575757;                            
+}
+
+#bloc-5-cta h2 {
+    color: white;
 }
 
 h3 {
@@ -643,7 +647,6 @@ h3 {
     font-weight: 700;
     color: #333333!important;
 }
-#portfolio h2, #services h2,
 h3,
 h4,
 h5,
@@ -742,7 +745,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(188, 68, 16);
+    background-color: rgba(87, 87, 87, 0.9);
 }
 
 .bold-link {
