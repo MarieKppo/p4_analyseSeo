@@ -440,6 +440,10 @@ nav .caret {
 .btn {
     margin: 0 5px 5px 0;
 }
+.btn-block {
+    width: 90%;
+    margin-left: 0px;
+}
 
 .btn.pull-right {
     margin: 0 0 5px 5px;
@@ -927,7 +931,7 @@ form {
     h6,
     p,
     #disqus_thread {
-        margin: 10px 30px;
+        margin: 10px 10px;
     }
     .b-parallax {
         background-attachment: scroll;
@@ -1059,6 +1063,13 @@ form {
     .form {
         width: 95%;
         margin: auto;
+    }
+    .btn-block {
+        width: 85%;
+        margin: auto;
+    }
+    .contact-info h2 {
+        padding: 0px;
     }
 }
 
