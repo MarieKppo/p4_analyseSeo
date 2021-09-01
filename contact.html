@@ -7,6 +7,7 @@
     <!--meta name="keywords" content="entreprise webdesign Lyon, site web, site internet, Lyon"-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
+	<script src="https://kit.fontawesome.com/c4888e540e.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
@@ -52,17 +53,13 @@
 
 <!-- bloc-6 // bannière page -->
 <section>
-	<div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
+	<div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture" id="bloc-6">
 		<div class="container bloc-lg">
 			<div class="row">
 				<div class="col-sm-12">
 					<h1 class="text-center hero-bloc-text">
 						Parlons web design !
 					</h1>
-					<p class="text-center mg-lg tight-width-whitespace">
-						Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
-						Parlez-nous de votre projet en complétant le formulaire ci-dessous.
-					</p>
 				</div>
 			</div>
 		</div>
@@ -75,40 +72,52 @@
 	<div class="bloc bgc-white l-bloc" id="bloc-7">
 		<div class="container bloc-lg">
 			<div class="row">
+				<div class="col-ms-12">
+					<p class="text-center mg-lg contact-info">
+						Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
+						Parlez-nous de votre projet en complétant le formulaire ci-dessous.
+					</p>
+				</div>
+			</div>
+			<div class="row form">
 				<div class="col-sm-6">
 					<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 						<div class="form-group">
-							<label>
+							<label for="name">
 								Nom
+								<input id="name" class="form-control" required />
 							</label>
-							<input id="name" class="form-control" required />
 						</div>
 						<div class="form-group">
-							<label>
+							<label for="email">
 								Adresse email
+								<input id="email" class="form-control" type="email" required />
 							</label>
-							<input id="email" class="form-control" type="email" required />
 						</div>
 						<div class="form-group">
-							<label>
+							<label for="input_504">
 								Comment nous avez-vous connu ?
-							</label>
-							<input class="form-control" type="email" required id="input_504" />
+								<input class="form-control" type="email" required id="input_504" />
+							</label>							
 						</div>
 						<div class="form-group">
-							<label>
+							<label for="message">
 								Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-							</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+								<textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+							</label>
 						</div> 
 						<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 							Envoyer
 						</button>
 					</form>
 				</div>
-				<div class="col-sm-6">
-					<p>
-						contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
+				<div class="col-sm-6 contact-info ">
+					<h3 class="contact-info ">Informations pratiques</h3>
+					<p aria-selected="adresse mail de la Chouette Agence">
+						<a href="mailto:contact@lachouetteagence.com" title="écrire un mail à la Chouette Agence"><i class="fas fa-envelope-square"></i> contact@lachouetteagence.com</a>
 					</p>
+					<p aria-selected="où nous trouver à Lyon"><i class="fas fa-map-marker-alt"></i> 2 place Sathonay, 69001 Lyon.</p>
+					<p aria-selected="nos horaires d'ouverture"><i class="fas fa-calendar-alt"></i> Ouvert de 9h à 18h, du lundi au vendredi.</p>
 				</div>
 			</div>
 		</div>
