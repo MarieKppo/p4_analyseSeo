@@ -697,7 +697,7 @@ p, quote {
     margin-inline-start: 10px!important;
     margin-inline-end: 10px!important;
 }
-quote {
+.quote {
     font-weight: 700;
     font-style:italic;
 }
